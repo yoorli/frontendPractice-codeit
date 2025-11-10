@@ -5,17 +5,27 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  /* 색깔에 mint-500 을 추가한다 */
-  --color-mint-500: #d1ffff;
-  /* 색깔에 mycolor-400 을 추가한다 */
-  --color-mycolor-400: #c71eff;
+/* day2 - practice 7 */
+@theme {
+  /* 주요 색상 */
+  --color-flow-blue: #0052cc;
+  --color-flow-purple: #6554c0;
+
+  /* 보조 색상 */
+  --color-flow-teal: #36b37e;
+
+  /* 강조 색상 */
+  --color-flow-orange: #ff5630;
+
+  /* 회사 폰트 */
+  --font-noto-sans-kr: "Noto Sans KR", sans-serif;
 }
 
+/* day2 - practice 1 */
+/* 주석 해제 시 수동으로 전환 가능 */
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
+/* day1 */
 @utility btn-class {
   padding: 10px;
   border: 1px solid gray;
@@ -23,6 +33,7 @@
   min-width: 80px;
 }
 
+/* day1 */
 .my-element {
   background: white;
   @variant dark {

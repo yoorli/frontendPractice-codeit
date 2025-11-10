@@ -14,7 +14,7 @@ const Day1 = () => {
     <div className="flex flex-col items-center justify-center gap-8">
       Day1
       <Link href="/day1/test">
-        <button type="button" className="btn-class text-black">
+        <button type="button" className="btn-class">
           test
         </button>
       </Link>
@@ -22,7 +22,7 @@ const Day1 = () => {
       <div className="flex flex-col items-center justify-center gap-4">
         {practices.map((item) => (
           <Link key={item.href} href={item.href}>
-            <button type="button" className="btn-class text-black">
+            <button type="button" className="btn-class">
               {item.label}
             </button>
           </Link>

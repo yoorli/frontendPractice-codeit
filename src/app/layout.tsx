@@ -26,10 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased m-4`}
+        className={`${geistSans.variable} ${geistMono.variable} m-4 antialiased`}
       >
         <Link href="/">
-          <div className="text-black">Home</div>
+          <div>Home</div>
         </Link>
         {children}
       </body>
