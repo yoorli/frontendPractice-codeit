@@ -1,10 +1,11 @@
-"use client";
+'use client';
 
-import { ComponentType, useState } from "react";
-import Day1 from "./day1";
-import Day2 from "./day2";
-// import Day3 from "./day3";
-// import Day4 from "./day4";
+import { ComponentType, useState } from 'react';
+
+import Day1 from './day01';
+import Day2 from './day02';
+import Day3 from './day03';
+import Day4 from "./day04";
 
 type DayItem = {
   id: number;
@@ -13,10 +14,10 @@ type DayItem = {
 };
 
 const DAYS: DayItem[] = [
-  { id: 1, label: "Day1 - Tailwind css practice", Component: Day1 },
-  { id: 2, label: "Day2 - Tailwind css practice", Component: Day2 },
-  // { id: 3, label: "Day3 - Tailwind css practice", Component: Day3 },
-  // { id: 4, label: "Day4 - Tailwind css practice", Component: Day4 },
+  { id: 1, label: 'Day1 - Tailwind css practice', Component: Day1 },
+  { id: 2, label: 'Day2 - Tailwind css practice', Component: Day2 },
+  { id: 3, label: 'Day3 -  CSS 애니메이션 practice', Component: Day3 },
+  { id: 4, label: "Day4 -  CSS 애니메이션 practice", Component: Day4 },
 ];
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
   const ActiveComponent = activeDay?.Component;
 
   return (
-    <div className="m-2 flex w-full flex-col items-start gap-2">
+    <div className="m-4 flex flex-col items-start gap-2">
       {DAYS.map((day) => (
         <button
           key={day.id}
@@ -40,7 +41,7 @@ export default function Home() {
         </button>
       ))}
 
-      <div className="h-[calc(100%-24px)] w-full mt-4">
+      <div className="mt-4 h-[calc(100%-24px)] w-full">
         {ActiveComponent && <ActiveComponent />}
       </div>
     </div>
