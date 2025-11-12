@@ -5,7 +5,8 @@ import { ComponentType, useState } from 'react';
 import Day1 from './day01';
 import Day2 from './day02';
 import Day3 from './day03';
-import Day4 from "./day04";
+import Day4 from './day04';
+import Day5 from './day05';
 
 type DayItem = {
   id: number;
@@ -16,8 +17,17 @@ type DayItem = {
 const DAYS: DayItem[] = [
   { id: 1, label: 'Day1 - Tailwind css practice', Component: Day1 },
   { id: 2, label: 'Day2 - Tailwind css practice', Component: Day2 },
-  { id: 3, label: 'Day3 -  CSS 애니메이션 practice', Component: Day3 },
-  { id: 4, label: "Day4 -  CSS 애니메이션 practice", Component: Day4 },
+  {
+    id: 3,
+    label: 'Day3 -  Tailwind CSS, CSS 애니메이션 practice',
+    Component: Day3,
+  },
+  { id: 4, label: 'Day4 -  CSS 애니메이션 practice', Component: Day4 },
+  {
+    id: 5,
+    label: 'Day5 -  CSS 애니메이션, 웹 브라우저에서 데이터 저장하기 practice',
+    Component: Day5,
+  },
 ];
 
 export default function Home() {
