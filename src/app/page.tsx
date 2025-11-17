@@ -7,6 +7,7 @@ import Day2 from './day02';
 import Day3 from './day03';
 import Day4 from './day04';
 import Day5 from './day05';
+import Day6 from './day06';
 
 type DayItem = {
   id: number;
@@ -27,6 +28,11 @@ const DAYS: DayItem[] = [
     id: 5,
     label: 'Day5 -  CSS 애니메이션, 웹 브라우저에서 데이터 저장하기 practice',
     Component: Day5,
+  },
+  {
+    id: 6,
+    label: 'Day6 -  웹 브라우저에서 데이터 저장하기, Jest 테스트 프레임워크 practice',
+    Component: Day6,
   },
 ];
 
