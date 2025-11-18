@@ -8,6 +8,7 @@ import Day3 from './day03';
 import Day4 from './day04';
 import Day5 from './day05';
 import Day6 from './day06';
+import Day8 from './day08';
 
 type DayItem = {
   id: number;
@@ -20,19 +21,25 @@ const DAYS: DayItem[] = [
   { id: 2, label: 'Day2 - Tailwind css practice', Component: Day2 },
   {
     id: 3,
-    label: 'Day3 -  Tailwind CSS, CSS 애니메이션 practice',
+    label: 'Day3 - Tailwind CSS, CSS 애니메이션 practice',
     Component: Day3,
   },
-  { id: 4, label: 'Day4 -  CSS 애니메이션 practice', Component: Day4 },
+  { id: 4, label: 'Day4 - CSS 애니메이션 practice', Component: Day4 },
   {
     id: 5,
-    label: 'Day5 -  CSS 애니메이션, 웹 브라우저에서 데이터 저장하기 practice',
+    label: 'Day5 - CSS 애니메이션, 웹 브라우저에서 데이터 저장하기 practice',
     Component: Day5,
   },
   {
     id: 6,
-    label: 'Day6 -  웹 브라우저에서 데이터 저장하기, Jest 테스트 프레임워크 practice',
+    label:
+      'Day6 - 웹 브라우저에서 데이터 저장하기, Jest 테스트 프레임워크 practice',
     Component: Day6,
+  },
+  {
+    id: 8,
+    label: 'Day8 - React 컴포넌트 테스트 practice',
+    Component: Day8,
   },
 ];
 
