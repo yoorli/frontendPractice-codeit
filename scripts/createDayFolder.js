@@ -8,7 +8,7 @@ const entries = fs.readdirSync(appDir, { withFileTypes: true }); // 디렉터리
 const folders = entries.filter((entry) => entry.isDirectory()); // 디렉터리만 필터링
 
 console.log("폴더 개수:", folders.length);
-const baseName = folders.length > 9 ? 'day' : 'day0';
+const baseName = folders.length >= 9 ? 'day' : 'day0';
 const folderName = baseName + (folders.length + 1) + '';
 const targetDir = path.join(appDir, folderName);
 
