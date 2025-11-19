@@ -2,7 +2,8 @@
 name: Github Actions 연습하기
 # 언제 이 작업을 실행할지 정의
 # push: github에 push할 때마다 실행
-on: push
+# on: push
+on: workflow_dispatch
 
 # jobs: 어떤 작업을 할지
 jobs:
