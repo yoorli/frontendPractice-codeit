@@ -4,9 +4,17 @@ name: Github Actions 연습하기
 # push: github에 push할 때마다 실행
 on: push
 
+# jobs: 어떤 작업을 할지
 jobs:
   push-job:
+    # runs-on: 어떤 OS에서 실행할지
     runs-on: ubuntu-latest
+    # steps: 각 단계에서 실행할 명령 / 액션
     steps:
       - name: 첫 번째 작업
         run: echo "첫 번째 작업 실행 중"
+
+      - name: 여러 명령어 문장 작성하기
+        run: |
+          echo "첫 번째 명령어"
+          echo "두 번째 명령어"
