@@ -1,10 +1,9 @@
 'use client';
 
 import { easeInOut, motion } from 'motion/react';
-
 import { useEffect, useState } from 'react';
 
-export const AnimatedProgressBar = ({ maxValue = 100, height = 12 }) => {
+const AnimatedProgressBar = ({ maxValue = 100, height = 12 }) => {
   // API 응답으로 받을 값을 저장할 상태
   const [value, setValue] = useState(0);
   // API 로딩 상태 관리

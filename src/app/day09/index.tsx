@@ -4,9 +4,7 @@ const Day = () => {
   const practices = [
     // AUTO-GENERATED PRAC LINKS START
     { href: '/day09/prac01', label: 'Practice 1' },
-    { href: "/day09/prac02", label: "Practice 2" },
-{ href: "/day09/prac02", label: "Practice 2" },
-// AUTO-GENERATED PRAC LINKS END
+    // AUTO-GENERATED PRAC LINKS END
   ];
 
   return (

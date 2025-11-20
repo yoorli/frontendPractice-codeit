@@ -3,7 +3,7 @@
 import { motion } from 'motion/react';
 import { useEffect, useState } from 'react';
 
-export const TypingEffect = ({
+const TypingEffect = ({
   text,
   typingSpeed = 150,
 }: {
