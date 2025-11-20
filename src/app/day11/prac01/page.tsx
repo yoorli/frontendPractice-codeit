@@ -1,3 +1,3 @@
 export default function Home() {
-  return <> prac </>;
+  return <div> 환경: {process.env.NEXT_PUBLIC_MY_ENVIRONMENT} </div>;
 }
