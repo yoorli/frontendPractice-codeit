@@ -3,6 +3,7 @@ import Link from 'next/link';
 export default async function ProductsPage() {
   const products = await fetch('https://fakestoreapi.com/products');
   const productsData = await products.json();
+  
   return (
     <div>
       <ul className="flex flex-wrap gap-4">
