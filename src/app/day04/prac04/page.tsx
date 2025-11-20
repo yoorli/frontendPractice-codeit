@@ -3,7 +3,7 @@
 import { AnimatePresence, motion } from 'motion/react';
 import { useEffect, useState } from 'react';
 
-export const WordChangeAnimation = ({
+const WordChangeAnimation = ({
   prefix,
   suffix,
   words,
