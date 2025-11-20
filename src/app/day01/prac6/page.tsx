@@ -1,4 +1,4 @@
-import Input from '@/app/day1/components/Input';
+import Input from '@/app/day01/components/Input';
 
 export default function Home() {
   return (

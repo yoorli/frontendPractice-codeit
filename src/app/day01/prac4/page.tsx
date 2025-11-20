@@ -1,4 +1,4 @@
-import Card from '@/app/day1/components/Card';
+import Card from '@/app/day01/components/Card';
 
 export default function Home() {
   return (

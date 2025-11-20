@@ -11,6 +11,7 @@ import Day6 from './day06';
 import Day8 from './day08';
 import Day9 from './day09';
 import Day10 from './day10';
+import Day11 from './day11';
 
 type DayItem = {
   id: number;
@@ -52,6 +53,11 @@ const DAYS: DayItem[] = [
     id: 10,
     label: 'Day10 - React 컴포넌트 테스트, CI/CD practice',
     Component: Day10,
+  },
+  {
+    id: 11,
+    label: 'Day11 - CI/CD practice',
+    Component: Day11,
   },
 ];
 
